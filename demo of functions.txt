@@ -1,0 +1,30 @@
+functions:
+	def FUN_NAME(paramters):
+		#function body
+	
+calling:
+	var=FUN_NAME(arguments)
+
+
+parameters:
+	positional, default
+
+
+
+
+Factorial Optimized:
+1. Start
+2. Get the Number 
+3. Check IF Number = 1, then return 1
+4. Otherwise, return Number*Number-1
+5. Recursive step 2 to 4 until Number=1
+6. Stop
+
+Fibonacci Optimized:
+1. Start
+2. Get the Legth
+3. Check If length=0, the display invalid length
+4. Check IF length=1, then return 0
+5. Check IF length=2, then return 0 and 1
+6. Otherwise, recursively step 2 to 5 length-1 + length-2
+7. Stop
