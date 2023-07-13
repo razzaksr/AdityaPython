@@ -1,0 +1,23 @@
+Algorithm palindrome:
+1. Start
+2. Receive the value for USERS as arguments
+3. Initialize String CONTAINER=""
+4. append USERS[INDEX] to CONTAINER
+5. Repeat Step 4 until INDEX is 0 from USERS.Length
+6. Check IF USERS = NEW_USERS, then return palindrome
+7. Otherwise return Not a palindrome
+8. Stop
+
+Algorithm Armstrong:
+12
+
+1+8>>9
+
+121
+
+1+8+1>>10
+
+153
+1+125+ 27   >> 
+
+
