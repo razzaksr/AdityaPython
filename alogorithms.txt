@@ -21,3 +21,49 @@ Algorithm Armstrong:
 1+125+ 27   >> 
 
 
+2 Sum problem:
+[1,8,5,7,2]
+target=10
+
+find: 8 and 2
+
+first=0     1
+second=0+1  8,5,7,2
+
+first=1     8
+second=2    5,7,2   >> 8,2
+
+first=2     5
+second=3    7,2
+
+first=3     7
+second=4    2
+
+O(2n):
+while:
+    body1
+while:
+    body2
+
+
+Algorithm: O(n2)
+1. Start
+2. Get the list and target as parameter
+3. Initialize variable second=first+1
+4. SUM first+second position of list
+5. Check IF SUM=target, then Display the first and second and return
+6. Repeat Step 4 and 5 Until second = len(list)
+7. Repeat Step 6 range first=0 to first < len(list)
+8. Otherwise, Display No pair found
+9. Stop
+
+
+Selection sort:
+1. Start
+2. Get the myList as parameters
+3. Initialize Compare=Hold+1
+4. Check IF Compare<Hold, then swap
+5. Repeat step 4 until Compare < len(myList)
+6. Repeat Step 3 to 5 range of Hold=0 Hold < len(myList)
+7. Stop
+
