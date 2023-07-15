@@ -67,3 +67,13 @@ Selection sort:
 6. Repeat Step 3 to 5 range of Hold=0 Hold < len(myList)
 7. Stop
 
+
+Finding Duplicates:
+1. Start
+2. Receive the Paragraph as paramters
+3. Split by space
+4. Initialize Compare=Hold+1
+5. Check IF Compare==Hold, then Display the word
+6. Repeat step 4 until Compare < len(Paragraph)
+7. Repeat Step 3 to 5 range of Hold=0 Hold < len(Paragraph)
+8. Stop
