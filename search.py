@@ -8,6 +8,7 @@ def linear(myDesired):
     else:
         return "Not"
 
+# O(logn)
 def binary(myDesired,start=0,end=len(myList)-1):
     if start<=end:
         mid=start+(end-start)//2
