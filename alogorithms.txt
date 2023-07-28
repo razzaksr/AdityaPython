@@ -328,3 +328,41 @@ Algorithm:
 10. Repeat 4 to 9 until current<len(myList)
 11. Stop
 
+
+Interpolation search:
+
+mid=start+(end-start)//2		>> binary search
+
+mid=start+((target-myList[start]))*(end-start)/myList[end]-myList[start]
+
+45 89 12 22 10 5
+
+target=22
+22>5
+22<89
+
+0   1  2   3   4   5
+5  10  12  22  45  89
+lf					rt
+
+mid=0+((22-5))*(5-0)//(89-5)
+0+17*5//84
+0+1>>1>> mid>> 10, target=22
+
+lf=mid+1
+
+0   1  2   3   4   5
+5  10  12  22  45  89
+	   lt		   rt
+
+mid=2+((22-12))*(5-2)//(89-12)
+2+(10)*3//77
+2+30//77>> 2>> mid>> 12 , target=22
+
+0   1  2   3   4   5
+5  10  12  22  45  89
+	       lt	   rt
+mid=3+((22-22))*(5-3)//(89-22)
+3+0*2//67>>0//67>> 3>>mid, target=22
+
+mid==target
