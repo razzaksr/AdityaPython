@@ -1,0 +1,43 @@
+Fibonacci:
+1. Start
+2. Receive the Parameter Number
+3. Check if Number<=0, then return Can't generate fibonacci
+4. Otherwise, Initialize mySeries=[0,1]
+5. Initialize count = 2
+6. mySeries.append with mySeries[count-1]+mySeries[count-2]
+7. Repeat step 6 until count==Number
+8. Return mySeries
+9. Stop
+
+
+3>> disks, 
+
+1,2,3
+Django    Jinja     Flask
+   s        m         e
+
+  2,3                 1
+
+   3        2         1
+   3        2,1         
+            2,1       3
+    1       2         3
+    1                 3,2
+                      1,2,3
+
+
+Climb the stairs:
+
+stairs=2
+
+possibilities count=2
+1. climb 1 stair at a time
+2. climb 2 stairs at a time
+
+stairs=3
+
+possibilities count=3
+1. climb 1 stair at a time
+2. climb 2 stairs at a time and 1 stair following
+3. 1 stair followed by climb 2 stairs at a time
+
