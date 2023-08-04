@@ -56,3 +56,38 @@ Apple, Banana, Orange, Water melon              >> products
         Banana, Water melon(5)                  10
 
 
+ 0  1  2  3  4
+[7, 5, 1, 6, 8]
+
+0-day1
+4-day5
+
+day1-day2 >> loss of 2
+day2-day3 >> loss of 4
+day3-day4 >> profit of 5
+day3-day5 >> profit of 7
+
+ 0  1  2  3  4
+[90,45,20,10,2]
+day1-day2 >> loss of 45
+day2-day3 >> loss of 25
+day3-day4 >> loss of 10
+day4-day5 >> loss of  8
+
+
+para1="kitten">> 6
+para2="sitting"> 7
+
+no of steps/ distance:
+1. insert new character
+2. delete existing character
+3. modify/ replace existing character with new one
+
+output: 3
+para1="sitting"
+para2="sitting"
+
+horse, ros
+ros, ros
+output 3
+
